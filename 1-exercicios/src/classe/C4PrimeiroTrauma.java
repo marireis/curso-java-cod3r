@@ -3,7 +3,6 @@ package classe;
 public class C4PrimeiroTrauma {
 	
 	static int a = 3;
-	int b = 4;
 	public static void main(String[] args) {
 		
 		C4PrimeiroTrauma p = new C4PrimeiroTrauma();
@@ -11,7 +10,7 @@ public class C4PrimeiroTrauma {
 		
 		//ou
 		
-		System.out.println(b);
+		
 		System.out.println(a);//acessando pelo static
 	}
 

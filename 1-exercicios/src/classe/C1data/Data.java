@@ -5,13 +5,22 @@ public class Data {
 	public int mes;
 	public int ano;
 
-	Data(){
+	public Data(){
 		dia =1;
 		mes = 1;
 		ano=1970;
 		
 		//ou
 		//this(1,1,1945); chamar o construtor
+		
+		//valor padrao quando nao foi definido a variavel
+		//-primitivos-
+		//byte, short, int, long -> 0
+		//float, double -> 0.0
+		//boolean -> false
+		//char -> '\u0000'
+		//o resto é nulo
+		//String -> null
 		}
 	
 	public Data(int dia, int mes, int ano){
@@ -23,7 +32,7 @@ public class Data {
 	//metodo mais interessante com retorno- pode ser usado em api desktop, web, mobile
 	public String obterDataFormatada(){
 		
-		String formato = "%d/%d/%d";
+		final String formato = "%d/%d/%d";//constante local
 		return(String.format(formato,dia,mes,ano));
 		
 	}
