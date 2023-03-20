@@ -1,4 +1,4 @@
-package collections;
+package A5collections;
 
 import java.util.ArrayList;
 
