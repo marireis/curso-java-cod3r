@@ -32,5 +32,9 @@ public class C7UsuarioE {
 		}
 		
 	}
+	
+	public int hashCode() {
+		return this.nome.length(); //return 0;
+	}
 }
 

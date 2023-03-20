@@ -19,6 +19,9 @@ public class C6Equals {
 	
 	System.out.println(u1.equals2(u2));
 	System.out.println(u2.equals2(u1));
+	
+	System.out.println("===================");
+
 
 	
 	}
