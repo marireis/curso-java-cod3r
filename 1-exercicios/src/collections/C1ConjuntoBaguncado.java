@@ -5,6 +5,7 @@ import java.util.Set;
 
 public class C1ConjuntoBaguncado {
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })//para tirar advertencias do eclipse
 	public static void main(String[] args) {
 		
 		HashSet conjunto = new HashSet();
