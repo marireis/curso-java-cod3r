@@ -11,7 +11,7 @@ public class CompraTeste {
 //		c.itens.add(new Item("borracha", 10, 4.45));
 		
 		c.adicionarItem(new Item("caneta", 20, 7.45));
-		c.adicionarItem(new Item("borracha", 10, 4.45));
+		c.adicionarItem2("borracha", 10, 4.45);
 		
 		System.out.println(c.itens.size());
 		
