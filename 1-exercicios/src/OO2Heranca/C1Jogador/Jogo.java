@@ -12,14 +12,6 @@ public class Jogo {
 		j2.x=10;
 		j2.y=11;
 		
-//		j1.andar2(Direcao.NORTE);
-//		j1.andar2(Direcao.LESTE);
-//		j1.andar2(Direcao.NORTE);
-//		j1.andar2(Direcao.LESTE);
-//		
-//		System.out.println(j1.x);
-//		System.out.println(j1.y);
-		
 		j1.atacar(j2);
 		
 		System.out.println(j1.vida);
@@ -28,6 +20,38 @@ public class Jogo {
 		
 		System.out.println(j2.vida);
 		
+//		j1.andar2(Direcao.NORTE);
+//		j1.andar2(Direcao.LESTE);
+//		j1.andar2(Direcao.NORTE);
+//		j1.andar2(Direcao.LESTE);
+//		
+//		System.out.println(j1.x);
+//		System.out.println(j1.y);
 		
+		
+		Heroi heroi = new Heroi();//heroi extend jogador
+		heroi.x=10;
+		heroi.y=10;
+		
+		Monstro monstro = new Monstro();
+		monstro.x=10;
+		monstro.y=11;
+		
+		System.out.println("O Heroi tem: " +heroi.vida);
+		System.out.println("O monstro tem: " +monstro.vida);
+		
+		
+		heroi.atacar(monstro);
+		heroi.atacar(monstro);
+		
+		System.out.println("O Heroi tem: " +heroi.vida);
+		System.out.println("O monstro tem: " +monstro.vida);
+		
+		monstro.atacar(heroi);
+		
+		System.out.println("O monstro tem: " +monstro.vida);
+		System.out.println("O Heroi tem: " +heroi.vida);
+		
+		monstro.andar(Direcao.NORTE);
 	}
 }
