@@ -33,7 +33,7 @@ public class Jogo {
 		heroi.x=10;
 		heroi.y=10;
 		
-		Monstro monstro = new Monstro();
+		Monstro monstro = new Monstro(10,11);
 		monstro.x=10;
 		monstro.y=11;
 		
