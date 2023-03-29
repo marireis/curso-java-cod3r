@@ -7,6 +7,8 @@ public class Dirigir {
 		Carro ce = new Celta();
 		
 		Carro fe = new Ferrari();
+		Carro fe2 = new Ferrari(400);
+		
 		
 		ce.acelerar();
 		ce.acelerar();
