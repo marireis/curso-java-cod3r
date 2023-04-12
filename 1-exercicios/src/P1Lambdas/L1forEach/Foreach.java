@@ -1,4 +1,4 @@
-package P1Lambdas.forEach;
+package P1Lambdas.L1forEach;
 
 import java.util.Arrays;
 import java.util.List;
