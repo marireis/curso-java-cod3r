@@ -1,10 +1,10 @@
 package OO4Polimorfismo.estatico.entities;
 
-public class Feijão {
+public class Feijao {
 
 	private double peso;
 
-	public Feijão(double peso) {
+	public  Feijao (double peso) {
 		setPeso(peso);
 	}
 

@@ -1,7 +1,7 @@
 package OO4Polimorfismo.estatico.application;
 
 import OO4Polimorfismo.estatico.entities.Arroz;
-import OO4Polimorfismo.estatico.entities.Feijão;
+import OO4Polimorfismo.estatico.entities.Feijao;
 import OO4Polimorfismo.estatico.entities.Pessoa;
 import OO4Polimorfismo.estatico.entities.Sorvete;
 
@@ -11,7 +11,7 @@ public class Jantar {
 		Pessoa convidado = new Pessoa(99.65);
 		
 		Arroz ingrediente1 = new Arroz(0.200);
-		Feijão ingrediente2 = new Feijão(0.100);
+		 Feijao  ingrediente2 = new  Feijao (0.100);
 		
 		System.out.println(convidado.getPeso());
 		

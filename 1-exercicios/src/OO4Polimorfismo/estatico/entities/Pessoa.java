@@ -13,7 +13,7 @@ public class Pessoa {
 	public void comer(Sorvete sorvete) {
 		this.peso+=sorvete.getPeso();
 	}
-	public void comer(Feijão feijao) {
+	public void comer( Feijao  feijao) {
 		this.peso+=feijao.getPeso();
 	}
 

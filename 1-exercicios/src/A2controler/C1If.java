@@ -18,9 +18,9 @@ public class C1If {
 			System.out.println("Recuperação");
 		}
 		
-		boolean criterioReprovação = media<5.0 && media>=0;
+		boolean criterioReprovacao = media<5.0 && media>=0;
 		
-		if(criterioReprovação) {
+		if(criterioReprovacao) {
 			System.out.println("Reprovado");
 		}
 		entrada.close();

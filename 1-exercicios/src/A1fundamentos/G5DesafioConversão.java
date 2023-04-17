@@ -2,7 +2,7 @@ package A1fundamentos;
 
 import java.util.Scanner;
 
-public class G5DesafioConvers√£o {
+public class G5DesafioConvers„o {
 
 	public static void main(String[] args) {
 		
