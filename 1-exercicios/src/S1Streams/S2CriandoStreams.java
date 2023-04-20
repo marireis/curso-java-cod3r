@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
 
-public class CriandoStreams {
+public class S2CriandoStreams {
 	
 	public static void main(String[] args) {
 		
@@ -25,7 +25,7 @@ public class CriandoStreams {
 		outasLangs.stream().forEach(print);
 		outasLangs.parallelStream().forEach(print);
 		
-		Stream.generate(() -> "a").forEach(print);
+		//Stream.generate(() -> "a").forEach(print);
 		
 		Consumer<Integer> println = System.out::print;
 		Stream.iterate(0,  n -> n + 1).forEach(println);
