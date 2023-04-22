@@ -20,6 +20,8 @@ public class S2ChecadaXNaoChecada {
 		
 		System.out.println("Fim");
 		
+		
+		gerarErro1();//RunTime nao tem obrigação de tratar o erro - não checadas
 	}
 	//exceção não checada ou não verificada
 	static void gerarErro1() {
